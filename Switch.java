@@ -1,9 +1,9 @@
 import java.util.Scanner;
 
 public class Switch {
-    public static void main(Stringfun[] args) {
+    public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        Stringfun fruit = input.next();
+        String fruit = input.next();
 
         switch(fruit) {
             case "mango" -> System.out.println("King of fruits");
