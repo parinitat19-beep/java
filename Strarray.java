@@ -8,5 +8,6 @@ public class Strarray {
               arr[i] = in.next();
         }
         System.out.println(Arrays.toString(arr));
+        in.close();
     }
 }

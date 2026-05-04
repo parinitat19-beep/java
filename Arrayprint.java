@@ -9,6 +9,7 @@ public class Arrayprint {
             arr[i] = in.nextInt();
         }
        System.out.println(Arrays.toString(arr));
+       in.close();
     }
     
 }

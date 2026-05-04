@@ -1,10 +1,9 @@
 
-import java.util.Scanner;
 public class Armstrong {
 public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+        //Scanner input = new Scanner(System.in);
         //int n = input.nextInt();
-        for (int i = 100; i <= 999; i++) { // we are checking for 3-digit numbers because Armstrong numbers are typically defined for 3-digit numbers, where the sum of the cubes of the digits equals the number itself.git 
+        for (int i = 100; i <= 999; i++) { // we are checking for 3-digit numbers because Armstrong numbers are typically defined for 3-digit numbers, where the sum of the cubes of the digits equals the number itself.
             if (isArmstrong(i)) {
                 System.out.println(i);
             }
