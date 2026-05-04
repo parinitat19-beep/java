@@ -17,3 +17,7 @@ public class Largest {
         input.close();
     }
 }
+
+
+// int max = Math.max(c, Math.max(a, b)); // This line uses the Math.max method to find the maximum of a, b, and c in a more concise way. It first finds the maximum of a and b, and then compares that result with c to find the overall maximum.
+//System.out.println(max);
